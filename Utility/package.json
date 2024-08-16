@@ -1,10 +1,9 @@
 {
   "name": "com.redlobsterstudios.util",
   "version": "1.0.0",
-  "displayName": "Utilities",
+  "displayName": "RedLobsterStudios Utility",
   "keywords": [
-    "Utility",
     "Util",
-    "Singleton"
+    "Utility"
   ]
 }
