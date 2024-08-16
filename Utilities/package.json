@@ -1,0 +1,10 @@
+{
+  "name": "com.redlobsterstudios.util",
+  "version": "1.0.0",
+  "displayName": "Utilities",
+  "keywords": [
+    "Utility",
+    "Util",
+    "Singleton"
+  ]
+}
