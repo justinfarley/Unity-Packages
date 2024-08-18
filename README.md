@@ -16,7 +16,7 @@ All you have to do is define the data you want to store, and implement the inter
 
 ## Utils
 This is a generic namespace im going to be using for all sorts of utility classes.
-As of now this includes a MonoSingleton for manager scripts, as well as an AudioManager (which uses the MonoSingleton) built in for use.
+As of now this includes a `MonoSingleton` for manager scripts, as well as an `AudioManager` (which uses the `MonoSingleton`) built in for use.
 
 ~ Can be downloaded using the package manager or with the unitypackage.
 
