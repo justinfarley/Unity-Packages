@@ -11,6 +11,7 @@ These include a normal basic `Timer`, as well as an `IntervalTimer` (repeats), a
 SaveSystem is a save system I have created that uses an `ISaveable` interface.
 Essentially the purpose of this system is for each `ISaveable` object to define its own `Data` derived class.
 All you have to do is define the data you want to store, and implement the interface! then it will save on its own. (as long as you call the save load functions somewhere :P)
+This utilizes type serialization which allows for *anything* to be saveable! Automatically will save as long as the interface is implemented!
 
 ~ Can be downloaded using the unitypackage. Source code is on github for show but it does not have a package as it has scripts that should be in assets
 
