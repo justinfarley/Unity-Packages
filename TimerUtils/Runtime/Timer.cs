@@ -11,6 +11,8 @@ namespace RedLobsterStudios.TimerUtils {
         public bool Completed => _completed;
 
         private float time;
+        public float Time => time;
+
         protected float endTime;
 
         private Action endAction;
@@ -18,7 +20,7 @@ namespace RedLobsterStudios.TimerUtils {
         #endregion
 
         #region Life Cycle
-        protected Timer(float endTime, bool countUp, Action endAction = null)
+        public Timer(float endTime, bool countUp, Action endAction = null)
         {
             this.countUp = countUp;
             this.endTime = endTime;
